@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" href="/assets/images/clearglass-holographic-seal.png" sizes="any">
+<link rel="icon" type="image/png" href="/assets/images/clearglass-holographic-seal.png">
+<link rel="apple-touch-icon" href="/assets/images/clearglass-holographic-seal.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#39ffb6">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#07111f">
+<script>
+(function(){
+  try {
+    var ua = navigator.userAgent || '';
+    if (/bot|crawl|spider|slurp|bingpreview|google|bing|duckduck|baidu|yandex|sogou|exabot|facebot|ia_archiver|lighthouse|gptbot|oai-searchbot|chatgpt|claudebot|claude-web|anthropic|perplexity|amazonbot|applebot|ccbot|cohere|google-extended/i.test(ua)) return;
+    if (/[?&]skipboot=1\b/.test(location.search)) return;
+    var path = location.pathname;
+    if (path === '/' || path === '/index.html') return;
+    if (sessionStorage.getItem('cg.booted')) return;
+    sessionStorage.setItem('cg.booted', '1');
+    var here = path + location.search + location.hash;
+    location.replace('/loader.html?next=' + encodeURIComponent(here));
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ClearGlass Academy — Learning and Certification</title>
+<meta name="description" content="ClearGlass Academy: professional certificates in cybersecurity, AI governance, public-source intelligence, geospatial command, automation engineering, and executive risk. Issued by ClearGlass Inc., Burlington, Ontario.">
+<link rel="canonical" href="https://www.clearglassinc.com/academy.html">
+<meta property="og:title" content="ClearGlass Academy | ClearGlass Inc">
+<meta property="og:description" content="Professional learning and certification across cybersecurity, AI governance, OSINT, geospatial intelligence, automation, and executive risk. Transparency Is Infrastructure.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.clearglassinc.com/academy.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ClearGlass Academy | ClearGlass Inc">
+<meta name="twitter:description" content="Professional learning and certification across cybersecurity, AI governance, OSINT, geospatial intelligence, automation, and executive risk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Urbanist:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/glass.css">
+<link rel="stylesheet" href="/assets/css/cg-design-system.css">
+<link rel="stylesheet" href="/assets/css/future-buttons.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.clearglassinc.com/academy.html#org",
+      "name": "ClearGlass Academy",
+      "url": "https://www.clearglassinc.com/academy.html",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "ClearGlass Inc.",
+        "url": "https://www.clearglassinc.com/",
+        "address": {"@type": "PostalAddress", "addressLocality": "Burlington", "addressRegion": "Ontario", "addressCountry": "CA"}
+      }
+    },
+    {
+      "@type": "WebPage",
+      "name": "ClearGlass Academy — Learning and Certification",
+      "url": "https://www.clearglassinc.com/academy.html",
+      "description": "Professional certificates in cybersecurity, AI governance, OSINT, geospatial intelligence, automation, and executive risk."
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#070a14; --surf:rgba(17,22,40,.62); --surf2:rgba(12,16,32,.88);
+  --line:rgba(124,150,255,.15); --line2:rgba(124,150,255,.32);
+  --txt:#e7ecff; --dim:#94a0c0; --dim2:#67718f;
+  --sky:#38bdf8; --violet:#a78bfa; --mint:#34d399; --amber:#fbbf24;
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:Urbanist,system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--txt);font-family:var(--sans);line-height:1.55;background:
+  radial-gradient(1100px 720px at 86% -10%,rgba(167,139,250,.12),transparent 55%),
+  radial-gradient(940px 680px at -8% 8%,rgba(56,189,248,.12),transparent 52%),
+  radial-gradient(800px 600px at 50% 120%,rgba(52,211,153,.08),transparent 60%),
+  var(--bg);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:min(1180px,92vw);margin:0 auto}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--sky);border:1px solid var(--line2);border-radius:999px;padding:7px 15px;background:rgba(56,189,248,.07)}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 9px var(--mint)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.03em;line-height:1.08}
+h1{font-size:clamp(2.6rem,7vw,5.4rem);margin:.25em 0 .3em}
+h2{font-size:clamp(1.8rem,4vw,2.8rem);margin:0}
+h3{font-size:1.35rem;margin:0 0 .4em}
+.g{background:linear-gradient(100deg,#38bdf8,#a78bfa 40%,#f472b6 70%,#34d399);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.lede{max-width:680px;color:var(--dim);font-size:clamp(1.02rem,1.8vw,1.2rem);line-height:1.7}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 20px;border-radius:999px;font-family:var(--sans);font-weight:650;font-size:14px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .18s,background .18s,box-shadow .18s}
+.btn.primary{background:linear-gradient(100deg,var(--sky),var(--violet));color:#0a0c12;box-shadow:0 12px 34px -12px rgba(96,165,250,.7)}
+.btn.primary:hover{transform:translateY(-2px)}
+.btn.ghost{background:rgba(124,150,255,.07);border-color:var(--line2);color:#dbe4ff}
+.btn.ghost:hover{background:rgba(124,150,255,.15)}
+.btn.tiny{min-height:38px;padding:8px 12px;font-size:12.5px;border-radius:12px}
+.hero{padding:128px 0 48px;text-align:center;position:relative}
+.hero .lede,.hero .cta-row,.hero .trust{margin-left:auto;margin-right:auto;justify-content:center}
+.trust{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
+.trust span{font-family:var(--mono);font-size:11px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:8px 14px;background:rgba(124,150,255,.06)}
+.trust b{color:#fff;font-weight:650}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:36px}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.hero{text-align:left;padding-top:108px}.hero .cta-row,.hero .trust{justify-content:flex-start}}
+.stat{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:16px;backdrop-filter:blur(14px)}
+.stat strong{display:block;font-family:var(--serif);font-size:1.8rem;font-weight:600}
+.stat span{font-size:12px;color:var(--dim);font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase}
+section.blk{padding:56px 0;border-top:1px solid var(--line)}
+.sec-head{max-width:760px;margin-bottom:28px}
+.sec-head p{color:var(--dim);margin:10px 0 0}
+.grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:920px){.grid6{grid-template-columns:repeat(2,1fr)}.grid3{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.grid6,.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:18px;padding:20px;backdrop-filter:blur(14px);display:flex;flex-direction:column;gap:8px;transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-3px);border-color:var(--line2)}
+.card .ic{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(56,189,248,.16),rgba(167,139,250,.16));color:var(--sky)}
+.card p{margin:0;color:var(--dim);font-size:14px}
+.card a.more{margin-top:auto;font-size:13px;font-weight:650;color:var(--sky);text-decoration:none}
+.command{position:sticky;top:88px;z-index:20;background:rgba(7,10,20,.86);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:20px;padding:14px;margin-bottom:18px}
+.command-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search{flex:1;min-width:220px;display:flex;align-items:center;gap:8px;background:rgba(8,12,26,.7);border:1px solid var(--line);border-radius:12px;padding:0 12px}
+.search input{flex:1;background:transparent;border:0;color:#fff;font:inherit;padding:12px 0;outline:0;min-height:44px}
+select.sel,button.chip{background:rgba(8,12,26,.7);border:1px solid var(--line);border-radius:12px;color:#dbe4ff;padding:10px 12px;font:inherit;min-height:44px;cursor:pointer}
+button.chip.on,select.sel:focus{border-color:var(--line2);color:#fff}
+.meta-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:12.5px;color:var(--dim)}
+.view-toggle button{min-width:44px}
+.course-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
+.course-grid.list{grid-template-columns:1fr}
+.course{position:relative}
+.course .kicker{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--sky)}
+.course .hours{font-family:var(--mono);font-size:11px;color:var(--dim2)}
+.progress{height:6px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;margin-top:8px}
+.progress > i{display:block;height:100%;background:linear-gradient(90deg,var(--sky),var(--mint));width:0}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.empty{text-align:center;color:var(--dim);padding:40px 12px}
+.dialog{border:1px solid var(--line2);border-radius:20px;background:rgba(10,14,28,.96);color:var(--txt);padding:0;width:min(720px,94vw)}
+.dialog::backdrop{background:rgba(3,5,12,.72)}
+.dialog-inner{padding:24px}
+.dialog h2{font-size:2rem}
+.close{position:absolute;top:10px;right:10px}
+.cert{background:linear-gradient(165deg,rgba(12,18,36,.95),rgba(20,16,40,.95));border:1px solid var(--line2);border-radius:20px;padding:24px}
+canvas#certCanvas{width:100%;max-width:720px;height:auto;border-radius:12px;border:1px solid var(--line);background:#0b1220}
+.field{display:flex;flex-direction:column;gap:6px;margin:12px 0}
+.field label{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim2)}
+.field input{background:rgba(8,12,26,.7);border:1px solid var(--line);border-radius:12px;padding:12px;color:#fff;font:inherit;min-height:44px}
+.note{font-size:12.5px;color:var(--dim2);line-height:1.6}
+footer.site{border-top:1px solid var(--line);padding:48px 0 28px;margin-top:20px}
+.fnav{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+@media(max-width:720px){.fnav{grid-template-columns:1fr 1fr}.command{top:72px}}
+.fnav h3{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim2)}
+.fnav a{display:block;color:var(--dim);text-decoration:none;padding:6px 0;font-size:14px}
+.fnav a:hover{color:#fff}
+.legal{margin-top:28px;color:var(--dim2);font-size:12px;font-family:var(--mono)}
+.compare-tray{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);width:min(860px,94vw);background:rgba(10,14,28,.96);border:1px solid var(--line2);border-radius:16px;padding:12px 14px;display:none;z-index:40;box-shadow:0 18px 50px rgba(0,0,0,.4)}
+.compare-tray.open{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(16px);opacity:0;background:rgba(20,24,44,.97);border:1px solid var(--line2);border-radius:11px;padding:11px 18px;font-size:12.5px;pointer-events:none;transition:.25s;z-index:90;font-family:var(--mono)}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+:focus-visible{outline:3px solid #fff;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.icon-svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<script defer src="/assets/js/cg-design-system.js"></script>
+</head>
+<body>
+<main>
+  <section class="hero wrap" id="top">
+    <p class="eyebrow"><span class="dot"></span>ClearGlass Academy · Professional development</p>
+    <h1>Learn the systems.<br><span class="g">Earn the credential.</span></h1>
+    <p class="lede">Cohort programs in cybersecurity, AI governance, public-source intelligence, geospatial command, automation engineering, and executive risk — taught from the same surfaces ClearGlass ships. Certificates are issued by ClearGlass Inc., not a university.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#catalog">Browse programs</a>
+      <a class="btn ghost" href="#enterprise">Enterprise cohorts</a>
+      <a class="btn ghost" href="/store.html">Book an engagement</a>
+    </div>
+    <div class="trust">
+      <span><b>Issued by ClearGlass Inc.</b> — Burlington, Ontario</span>
+      <span><b>Not a degree</b> — professional certificate of completion</span>
+      <span><b>No classified content</b> — public methods only</span>
+      <span><b>Written authorization</b> — cohort delivery is scheduled</span>
+    </div>
+    <div class="stats" aria-label="Academy snapshot">
+      <div class="stat"><strong id="statCourses">16</strong><span>Programs</span></div>
+      <div class="stat"><strong>6</strong><span>Categories</span></div>
+      <div class="stat"><strong>4</strong><span>Learning paths</span></div>
+      <div class="stat"><strong id="statHours">—</strong><span>Catalog hours</span></div>
+    </div>
+  </section>
+
+  <section class="blk wrap" id="categories">
+    <div class="sec-head">
+      <p class="eyebrow">01 · Learning categories</p>
+      <h2>Six disciplines. One operating language.</h2>
+      <p>Every track maps to a live ClearGlass product surface so the classroom and the console stay aligned.</p>
+    </div>
+    <div class="grid6" id="catGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="programs">
+    <div class="sec-head">
+      <p class="eyebrow">02 · Training products</p>
+      <h2>Certificates, sequences, and private cohorts.</h2>
+      <p>Choose a credential type, then filter the catalog. University language describes continuing-education curriculum — no exclusive accreditation is claimed.</p>
+    </div>
+    <div class="grid3" id="typeGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="catalog">
+    <div class="sec-head">
+      <p class="eyebrow">03 · Catalog command</p>
+      <h2>Find the right program.</h2>
+      <p>Search, filter, save, compare, and track progress locally on this device. Press <span class="mono">/</span> to search.</p>
+    </div>
+    <div class="command" role="search">
+      <div class="command-row">
+        <label class="search"><svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search programs</span><input id="q" type="search" placeholder="Search cybersecurity, OSINT, governance…" autocomplete="off"></label>
+        <label class="sr-only" for="fCat">Category</label>
+        <select id="fCat" class="sel"></select>
+        <label class="sr-only" for="fType">Program type</label>
+        <select id="fType" class="sel"></select>
+        <label class="sr-only" for="fLevel">Level</label>
+        <select id="fLevel" class="sel"><option value="">All levels</option><option>Foundational</option><option>Practitioner</option><option>Executive</option></select>
+        <label class="sr-only" for="fSort">Sort</label>
+        <select id="fSort" class="sel"><option value="featured">Featured</option><option value="name">Name A–Z</option><option value="hours">Duration</option><option value="level">Level</option></select>
+        <button type="button" class="chip" id="favOnly" aria-pressed="false">Saved</button>
+        <div class="view-toggle" aria-label="Catalog view">
+          <button type="button" class="chip on" data-view="grid" aria-pressed="true">Grid</button>
+          <button type="button" class="chip" data-view="list" aria-pressed="false">List</button>
+        </div>
+      </div>
+      <div class="meta-row"><span id="count" role="status" aria-live="polite">Loading catalog…</span><span class="mono">Progress and saves stay in this browser</span></div>
+    </div>
+    <div class="course-grid" id="courseGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="paths">
+    <div class="sec-head">
+      <p class="eyebrow">04 · Learning paths</p>
+      <h2>Sequences, not random modules.</h2>
+      <p>Four curated paths. Enroll in the first course, then walk the rest.</p>
+    </div>
+    <div class="grid2" id="pathGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="community">
+    <div class="sec-head">
+      <p class="eyebrow">05 · Community</p>
+      <h2>People who operate the same stack.</h2>
+      <p>Access follows enrollment. Nothing here is a fake member count or a live classified forum.</p>
+    </div>
+    <div class="grid3" id="commGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="resources">
+    <div class="sec-head">
+      <p class="eyebrow">06 · Resource center</p>
+      <h2>Read first. Then train.</h2>
+      <p>Public articles, architecture notes, and playbooks already on clearglassinc.com.</p>
+    </div>
+    <div class="grid3" id="resGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="instructors">
+    <div class="sec-head">
+      <p class="eyebrow">07 · Instructors</p>
+      <h2>Taught from the product, not a rented syllabus.</h2>
+    </div>
+    <div class="grid3" id="insGrid"></div>
+  </section>
+
+  <section class="blk wrap" id="enterprise">
+    <div class="sec-head">
+      <p class="eyebrow">08 · Enterprise</p>
+      <h2>Private cohorts for operators and public-sector teams.</h2>
+      <p>Fixed-scope delivery. Written authorization. Evidence you can hand to an auditor.</p>
+    </div>
+    <div class="grid3" id="entGrid"></div>
+    <div class="cta-row"><a class="btn primary" href="/store.html">Request a private cohort</a><a class="btn ghost" href="/#contact">Contact ClearGlass</a></div>
+  </section>
+
+  <section class="blk wrap" id="certificate">
+    <div class="sec-head">
+      <p class="eyebrow">09 · Certificate studio</p>
+      <h2>Preview the credential.</h2>
+      <p>This is a local preview. A real certificate is issued after cohort completion and is signed by ClearGlass Inc.</p>
+    </div>
+    <div class="cert grid2">
+      <div>
+        <div class="field"><label for="certName">Name on certificate</label><input id="certName" maxlength="64" placeholder="Your name"></div>
+        <div class="field"><label for="certCourse">Program</label><input id="certCourse" list="courseNames" placeholder="Choose a program"></div>
+        <datalist id="courseNames"></datalist>
+        <div class="cta-row">
+          <button class="btn primary" type="button" id="drawCert">Render preview</button>
+          <button class="btn ghost" type="button" id="dlCert">Download PNG</button>
+        </div>
+        <p class="note">Watermarked PREVIEW. Not a valid credential. Completing a paid cohort is required before ClearGlass issues a certificate of completion.</p>
+      </div>
+      <canvas id="certCanvas" width="1200" height="848" aria-label="Certificate preview"></canvas>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="fnav" id="fnav">
+      <div>
+        <h3>About</h3>
+        <a href="/index.html#vision">About</a>
+        <a href="/products.html">Training catalog</a>
+        <a href="/academy.html#instructors">Leadership</a>
+        <a href="/index.html#contact">Careers</a>
+      </div>
+      <div>
+        <h3>Training</h3>
+        <a href="#categories">Categories</a>
+        <a href="#programs">Certificates</a>
+        <a href="#enterprise">Enterprise</a>
+        <a href="#enterprise">Government</a>
+      </div>
+      <div>
+        <h3>Community</h3>
+        <a href="#community">Learners</a>
+        <a href="/blog/">Blog</a>
+        <a href="#community">Partners</a>
+        <a href="#community">Beta testers</a>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <a href="/legal/privacy.html">Privacy</a>
+        <a href="/legal/terms.html">Terms</a>
+        <a href="/legal/accessibility.html">Accessibility</a>
+        <a href="/index.html#contact">Contact</a>
+      </div>
+    </div>
+    <p class="legal">ClearGlass Inc. · Transparency Is Infrastructure · Burlington, Ontario · Certificates of completion are professional development credentials, not university degrees. Engagements performed only with written authorization.</p>
+  </div>
+</footer>
+
+<div class="compare-tray" id="tray" hidden>
+  <span class="mono" id="trayLabel">Compare</span>
+  <div id="trayItems" style="display:flex;gap:8px;flex:1;flex-wrap:wrap"></div>
+  <button class="btn tiny primary" type="button" id="openCompare">Compare</button>
+  <button class="btn tiny ghost" type="button" id="clearCompare">Clear</button>
+</div>
+<dialog class="dialog" id="dlg" aria-labelledby="dlgTitle"><div class="dialog-inner" id="dlgInner"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<aside id="cg-related">
+  <style>#cg-related{margin:54px auto 0;max-width:1120px;padding:0 18px 38px;font-family:Urbanist,system-ui,sans-serif}#cg-related .cgr-box{background:linear-gradient(165deg,rgba(5,12,28,.97),rgba(9,7,24,.97));border:1px solid rgba(34,211,238,.34);border-radius:16px;padding:24px 26px;color:#d8e4ff}#cg-related h2{margin:0 0 14px;font-size:15.5px;letter-spacing:.08em;text-transform:uppercase}#cg-related ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:8px 18px}#cg-related a{color:#cfe0ff;text-decoration:none}#cg-related .cgr-cta{margin:16px 0 0;padding-top:14px;border-top:1px solid rgba(34,211,238,.18);font-size:13.5px;color:#a9b8df}#cg-related .cgr-cta a{color:#67e8f9;font-weight:700}</style>
+  <nav class="cgr-box" aria-label="Related ClearGlass pages">
+    <h2>Continue exploring</h2>
+    <ul>
+      <li><a href="products.html"><b>Products</b> — unified ClearGlass catalog</a></li>
+      <li><a href="smb-cyber-trust-kit.html"><b>SMB Cyber Trust Kit</b> — operator templates</a></li>
+      <li><a href="bluedesk.html"><b>BLUEDESK</b> — CISO risk console</a></li>
+      <li><a href="intelligence.html"><b>Intelligence Services</b> — advisory and OSINT</a></li>
+      <li><a href="government.html"><b>Government Solutions</b> — public-sector systems</a></li>
+    </ul>
+    <p class="cgr-cta">Next step: <a href="store.html">Book a security engagement</a> · <a href="pricing.html">See pricing</a></p>
+  </nav>
+</aside>
+
+<script>window.__CG_ACADEMY = {"schema":"clearglass.academy/v1","version":"1.0.0","updated":"2026-08-24","organization":{"name":"ClearGlass Inc.","legalName":"ClearGlass Inc.","url":"https://www.clearglassinc.com/","email":"desmond@clearglassinc.com","telephone":"+1-289-707-0269","location":"Burlington, Ontario, Canada","tagline":"Transparency Is Infrastructure"},"disclaimer":"ClearGlass Academy issues professional certificates of completion for ClearGlass Inc. training programs. These are not university-accredited degrees, not security clearances, and not a substitute for licensed professional designations. Cohort delivery is engagement-based and scheduled with written authorization.","categories":[{"id":"cyber","name":"Cybersecurity","blurb":"Defensive operations, resilience kits, and governed blue-team practice.","icon":"shield"},{"id":"ai","name":"AI Governance","blurb":"Human-approved autonomy, agent oversight, and audit-ready AI policy.","icon":"cpu"},{"id":"osint","name":"Public-Source Intelligence","blurb":"Open-source investigation methods that survive contact with reality.","icon":"search"},{"id":"geo","name":"Geospatial Intelligence","blurb":"Live geospatial command literacy for operators and executives.","icon":"globe"},{"id":"auto","name":"Automation Engineering","blurb":"Self-hosted automation, agent mesh, and architecture orchestration.","icon":"workflow"},{"id":"risk","name":"Executive Risk Intelligence","blurb":"Board-level risk language, procurement integrity, and evidence packs.","icon":"scale"}],"programTypes":[{"id":"professional","name":"Professional Certificates","blurb":"Practitioner tracks with a ClearGlass certificate of completion."},{"id":"executive","name":"Executive Certificates","blurb":"Compressed programs for CISOs, directors, and public-sector leads."},{"id":"master","name":"Master Programs","blurb":"Multi-course sequences across a product family."},{"id":"enterprise","name":"Enterprise Learning","blurb":"Private cohorts mapped to your stack, evidence, and operating cadence."},{"id":"government","name":"Government Training","blurb":"Procurement-aware, audit-ready workshops for public-sector teams."},{"id":"university","name":"University Partnerships","blurb":"Curriculum designed for continuing education. Partnership conversations welcome \u2014 no exclusive university accreditation is claimed."}],"paths":[{"id":"path-defender","name":"Defender Path","blurb":"From plain-language cyber trust to a CISO console literacy.","courseIds":["cyber-foundations","smb-trust","adaptive-trust","bluedesk-ciso"]},{"id":"path-governance","name":"Governed AI Path","blurb":"Policy, oversight, and agent operations without theatre.","courseIds":["ai-governance-operator","governed-autonomy","agent-mesh-master"]},{"id":"path-intel","name":"Intelligence Path","blurb":"Public-source methods plus geospatial command.","courseIds":["osint-methods","ontario-osint-lab","geo-literacy","sentinel-ops"]},{"id":"path-executive","name":"Executive Path","blurb":"Risk language, government readiness, and enterprise delivery.","courseIds":["exec-risk","gov-readiness","artemis-enterprise"]}],"courses":[{"id":"cyber-foundations","title":"Cybersecurity Foundations for Operators","category":"cyber","type":"professional","level":"Foundational","hours":12,"modules":8,"featured":true,"summary":"A practitioner baseline: identity, patching, backups, incident first-hour, and how to talk about risk without jargon.","outcomes":["Score residual risk in plain language","Stand up an acceptable-use and MFA baseline","Run a first-hour incident checklist"],"related":["/smb-cyber-trust-kit.html","/bluedesk.html"],"cta":"/store.html"},{"id":"smb-trust","title":"SMB Cyber Trust Practitioner","category":"cyber","type":"professional","level":"Practitioner","hours":8,"modules":6,"featured":true,"summary":"Operate the ClearGlass SMB Cyber Trust Kit: policies, heat-map, incident scripts, and owner-facing language.","outcomes":["Personalise eight policy templates","Rank a 5\u00d75 heat-map worst-first","Draft gated incident comms"],"related":["/smb-cyber-trust-kit.html","/smb.html"],"cta":"/smb-cyber-trust-kit.html"},{"id":"adaptive-trust","title":"Adaptive Trust Architecture","category":"cyber","type":"professional","level":"Practitioner","hours":16,"modules":10,"featured":false,"summary":"Move past slogan-grade zero-trust into adaptive, evidence-backed access and monitoring decisions.","outcomes":["Map an adaptive trust loop","Define human-approval gates","Produce an audit-ready evidence trail"],"related":["/artemis-blue-team.html","/cyber-defense-console.html"],"cta":"/store.html"},{"id":"bluedesk-ciso","title":"BLUEDESK CISO Console Literacy","category":"cyber","type":"executive","level":"Executive","hours":6,"modules":5,"featured":false,"summary":"Read, brief, and govern a CISO risk console without drowning the board in telemetry.","outcomes":["Brief residual risk in one page","Use BLUEDESK as an executive surface","Set a weekly risk cadence"],"related":["/bluedesk.html","/bluedesk-mobile.html"],"cta":"/bluedesk.html"},{"id":"ai-governance-operator","title":"AI Governance Operator","category":"ai","type":"professional","level":"Practitioner","hours":14,"modules":9,"featured":true,"summary":"Stand up governed autonomy: policy, logging, human-in-the-loop, and what never to let an agent invent.","outcomes":["Write an agent policy that can be audited","Instrument approval gates","Detect shadow-AI use in a small org"],"related":["/ai-operator.html","/artemis-self-evolving-platform.html"],"cta":"/store.html"},{"id":"governed-autonomy","title":"Governed Autonomy for Agent Systems","category":"ai","type":"executive","level":"Executive","hours":8,"modules":6,"featured":false,"summary":"Executive control of multi-agent systems: what to automate, what to approve, what to refuse.","outcomes":["Set an autonomy budget","Define kill-switch and rollback","Brief a board on agent risk"],"related":["/agentmesh.html","/percival-os.html"],"cta":"/store.html"},{"id":"osint-methods","title":"Public-Source Intelligence Methods","category":"osint","type":"professional","level":"Foundational","hours":12,"modules":8,"featured":true,"summary":"Collection, corroboration, sourcing, and the discipline of not claiming more than the record supports.","outcomes":["Build a source-transparent dossier","Apply corroboration rules","Write findings that survive challenge"],"related":["/flowsint.html","/intelligence.html"],"cta":"/intelligence.html"},{"id":"ontario-osint-lab","title":"Ontario Accountability OSINT Lab","category":"osint","type":"professional","level":"Practitioner","hours":10,"modules":7,"featured":false,"summary":"Regional public-record methods for Ontario and municipal accountability work. No classified sources. No unverified allegations.","outcomes":["Navigate public registries and FOI posture","Structure a municipal evidence pack","Separate signal from narrative"],"related":["/Ontario-osint.html","/procurement-legal-tech.html"],"cta":"/Ontario-osint.html"},{"id":"geo-literacy","title":"Geospatial Command Literacy","category":"geo","type":"professional","level":"Foundational","hours":10,"modules":6,"featured":false,"summary":"Read a live geospatial picture: layers, latency, uncertainty, and what a map is not allowed to imply.","outcomes":["Interpret layer confidence","Brief a geospatial COP","Avoid over-claiming from a map"],"related":["/sentinel.html","/intelligence-command-surface.html"],"cta":"/sentinel.html"},{"id":"sentinel-ops","title":"SENTINEL Geospatial Operations","category":"geo","type":"executive","level":"Executive","hours":8,"modules":5,"featured":false,"summary":"Command-surface literacy for SENTINEL: what executives watch, what operators change, what gets logged.","outcomes":["Run a SENTINEL briefing loop","Set geospatial alerting policy","Hand off an evidence snapshot"],"related":["/sentinel.html","/guardian.html"],"cta":"/sentinel.html"},{"id":"conduit-auto","title":"Automation Engineering with CONDUIT","category":"auto","type":"professional","level":"Practitioner","hours":16,"modules":10,"featured":false,"summary":"Self-hosted automation that you can inspect: triggers, approvals, failure modes, and rollback.","outcomes":["Design a governed workflow","Add human approval where it belongs","Document a failure runbook"],"related":["/conduit.html","/automap.html"],"cta":"/conduit.html"},{"id":"agent-mesh-master","title":"Multi-Agent Orchestration Master Sequence","category":"auto","type":"master","level":"Practitioner","hours":28,"modules":16,"featured":true,"summary":"A sequenced master program across Agent Mesh, AI Operator Workspace, and Percival command discipline.","outcomes":["Orchestrate a multi-agent loop","Keep a human on the kill-switch","Produce an operator runbook"],"related":["/agentmesh.html","/ai-operator.html","/percival-os.html"],"cta":"/store.html"},{"id":"exec-risk","title":"Executive Risk Intelligence","category":"risk","type":"executive","level":"Executive","hours":8,"modules":6,"featured":true,"summary":"Translate cyber, AI, and intelligence posture into board language: money, time, trust, legal exposure.","outcomes":["Write a one-page residual-risk brief","Set a quarterly risk cadence","Ask the questions vendors hope you will not"],"related":["/bluedesk.html","/pricing.html"],"cta":"/store.html"},{"id":"gov-readiness","title":"Government Readiness: Procurement and Evidence","category":"risk","type":"government","level":"Executive","hours":10,"modules":7,"featured":false,"summary":"Public-sector workshops: procurement integrity, evidence packs, and language that survives audit \u2014 not classified tradecraft.","outcomes":["Assemble an evidence pack","Map procurement integrity checks","Brief a public-sector sponsor"],"related":["/government.html","/procurement-legal-tech.html"],"cta":"/government.html"},{"id":"artemis-enterprise","title":"Enterprise Learning: Artemis Operator Path","category":"ai","type":"enterprise","level":"Practitioner","hours":24,"modules":14,"featured":false,"summary":"Private-cohort Artemis literacy mapped to your environment. Delivery is scheduled; nothing here implies a live classified system.","outcomes":["Map Artemis surfaces to your ops","Define governed improvement loops","Hand off an operator syllabus"],"related":["/artemis-os.html","/artemis-iv.html"],"cta":"/store.html"},{"id":"intel-literacy-uni","title":"Intelligence Systems Literacy \u2014 Continuing Education Track","category":"osint","type":"university","level":"Foundational","hours":20,"modules":12,"featured":false,"summary":"A syllabus designed for college and university continuing-education use. Partnership conversations welcome. No exclusive university accreditation is claimed.","outcomes":["Teach source discipline","Run a sourced case lab","Assess without inflating claims"],"related":["/intelligence.html","/flowsint.html"],"cta":"/index.html#contact"}],"community":[{"id":"learners","name":"Learner Community","blurb":"Cohort channels for people taking ClearGlass programs. Access is granted with enrollment."},{"id":"research","name":"Research Community","blurb":"Practitioners exchanging methods on OSINT, governance, and defensive automation."},{"id":"partners","name":"Industry Partners","blurb":"Integrators and advisors who deliver ClearGlass curriculum inside their accounts."},{"id":"beta","name":"Beta Testers","blurb":"Early syllabus reviews. Written feedback only \u2014 no production-system access implied."},{"id":"blog","name":"Technical Blog","blurb":"Long-form notes from the ClearGlass public site.","href":"/blog/"},{"id":"podcast","name":"Podcast","blurb":"Briefed audio is planned. No episodes are claimed as live until they exist on the site."}],"resources":[{"id":"articles","name":"Articles","href":"/blog/","blurb":"Public essays on architecture, governance, and operations."},{"id":"whitepapers","name":"White Papers","href":"/clearpulse-architecture.html","blurb":"Longer architecture notes, starting with ClearPulse."},{"id":"threat","name":"Threat Reports","href":"/blog/autonomous-threat-modeling-2026.html","blurb":"Published threat-modeling notes \u2014 not classified reporting."},{"id":"aigov","name":"AI Governance Frameworks","href":"/blog/ai-agent-governance-governed-autonomy.html","blurb":"Governed autonomy writing you can brief from."},{"id":"playbooks","name":"Security Playbooks","href":"/smb-cyber-trust-kit.html","blurb":"The SMB Cyber Trust Kit and related operator templates."}],"instructors":[{"id":"founder","name":"Desmond Otieno Odhiambo","role":"Founder & Software Architect","blurb":"Leads ClearGlass Inc. from Burlington, Ontario. Academy programs are designed from the same product surfaces the company ships \u2014 Artemis, BLUEDESK, SENTINEL, CONDUIT, and the SMB Cyber Trust Kit."},{"id":"contributors","name":"Expert Contributors","role":"Practitioners","blurb":"Guest modules are credited by name when they ship. Uncredited 'expert panels' are not invented here."},{"id":"advisors","name":"Industry Advisors","role":"Review","blurb":"Syllabus review is invited from operators and public-sector leads under NDA. Advisory seats are not listed until they are real."}],"enterprise":[{"id":"ent-cyber","name":"Enterprise Cybersecurity Training","blurb":"Private cohorts on foundations, adaptive trust, and CISO console literacy."},{"id":"ent-ai","name":"AI Risk Management Programs","blurb":"Governed autonomy workshops mapped to your agent inventory."},{"id":"ent-gov","name":"Government Readiness Programs","blurb":"Procurement, evidence, and briefing discipline for public-sector teams."}]};</script>
+<script>
+(function(){
+  "use strict";
+  var DATA=null, LS="cg.academy.v1";
+  var state={q:"",cat:"",type:"",level:"",sort:"featured",favOnly:false,view:"grid",favs:{},progress:{},compare:[]};
+  var $=function(s,r){return (r||document).querySelector(s)};
+  var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&","<":"<",">":">","\"":""","'":"&#39;"}[c]})}
+  function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast._t);toast._t=setTimeout(function(){t.classList.remove("on")},1600)}
+  function loadState(){try{var s=JSON.parse(localStorage.getItem(LS)||"{}");state.favs=s.favs||{};state.progress=s.progress||{};state.compare=s.compare||[]}catch(e){}}
+  function saveState(){try{localStorage.setItem(LS,JSON.stringify({favs:state.favs,progress:state.progress,compare:state.compare}))}catch(e){}}
+  function catName(id){var c=DATA.categories.filter(function(x){return x.id===id})[0];return c?c.name:id}
+  function typeName(id){var c=DATA.programTypes.filter(function(x){return x.id===id})[0];return c?c.name:id}
+  function courseById(id){return DATA.courses.filter(function(c){return c.id===id})[0]}
+  function pct(id){return Math.max(0,Math.min(100,state.progress[id]|0))}
+
+  function icon(name){
+    var p={
+      shield:'<path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6z"/><path d="m9 12 2 2 4-4"/>',
+      cpu:'<rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4"/>',
+      search:'<circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/>',
+      globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+      workflow:'<rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3h12V9M12 12v3"/>',
+      scale:'<path d="M12 4v16M8 20h8M4 10l4 2 4-6 4 6 4-2"/>'
+    };
+    return '<svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">'+(p[name]||p.search)+'</svg>';
+  }
+
+  function fillStatic(){
+    $("#catGrid").innerHTML=DATA.categories.map(function(c){
+      return '<button class="card" type="button" data-set-cat="'+esc(c.id)+'"><div class="ic">'+icon(c.icon)+'</div><h3>'+esc(c.name)+'</h3><p>'+esc(c.blurb)+'</p></button>';
+    }).join("");
+    $("#typeGrid").innerHTML=DATA.programTypes.map(function(t){
+      return '<button class="card" type="button" data-set-type="'+esc(t.id)+'"><p class="kicker mono" style="color:var(--sky);letter-spacing:.14em;text-transform:uppercase;font-size:10px">'+esc(t.id)+'</p><h3>'+esc(t.name)+'</h3><p>'+esc(t.blurb)+'</p></button>';
+    }).join("");
+    $("#commGrid").innerHTML=DATA.community.map(function(c){
+      var href=c.href?' href="'+esc(c.href)+'"':' href="#catalog"';
+      return '<a class="card"'+href+'><h3>'+esc(c.name)+'</h3><p>'+esc(c.blurb)+'</p></a>';
+    }).join("");
+    $("#resGrid").innerHTML=DATA.resources.map(function(r){
+      return '<a class="card" href="'+esc(r.href)+'"><h3>'+esc(r.name)+'</h3><p>'+esc(r.blurb)+'</p></a>';
+    }).join("");
+    $("#insGrid").innerHTML=DATA.instructors.map(function(p){
+      return '<article class="card"><p class="kicker mono" style="color:var(--sky);font-size:10px;letter-spacing:.14em;text-transform:uppercase">'+esc(p.role)+'</p><h3>'+esc(p.name)+'</h3><p>'+esc(p.blurb)+'</p></article>';
+    }).join("");
+    $("#entGrid").innerHTML=DATA.enterprise.map(function(e){
+      return '<article class="card"><h3>'+esc(e.name)+'</h3><p>'+esc(e.blurb)+'</p><a class="more" href="/store.html">Request cohort</a></article>';
+    }).join("");
+    $("#pathGrid").innerHTML=DATA.paths.map(function(p){
+      var steps=p.courseIds.map(function(id,i){var c=courseById(id);return '<li>'+(i+1)+'. '+(c?esc(c.title):id)+'</li>'}).join("");
+      return '<article class="card"><h3>'+esc(p.name)+'</h3><p>'+esc(p.blurb)+'</p><ol style="margin:8px 0 0;padding-left:18px;color:var(--dim);font-size:14px">'+steps+'</ol></article>';
+    }).join("");
+    var hours=DATA.courses.reduce(function(a,c){return a+c.hours},0);
+    $("#statCourses").textContent=String(DATA.courses.length);
+    $("#statHours").textContent=String(hours);
+    var opts='<option value="">All categories</option>'+DATA.categories.map(function(c){return '<option value="'+esc(c.id)+'">'+esc(c.name)+'</option>'}).join("");
+    $("#fCat").innerHTML=opts;
+    $("#fType").innerHTML='<option value="">All program types</option>'+DATA.programTypes.map(function(t){return '<option value="'+esc(t.id)+'">'+esc(t.name)+'</option>'}).join("");
+    $("#courseNames").innerHTML=DATA.courses.map(function(c){return '<option value="'+esc(c.title)+'">'}).join("");
+  }
+
+  function filtered(){
+    var q=state.q.toLowerCase();
+    return DATA.courses.filter(function(c){
+      if(state.cat && c.category!==state.cat) return false;
+      if(state.type && c.type!==state.type) return false;
+      if(state.level && c.level!==state.level) return false;
+      if(state.favOnly && !state.favs[c.id]) return false;
+      if(q && (c.title+" "+c.summary+" "+c.level+" "+c.category+" "+c.type).toLowerCase().indexOf(q)<0) return false;
+      return true;
+    }).sort(function(a,b){
+      if(state.sort==="name") return a.title.localeCompare(b.title);
+      if(state.sort==="hours") return a.hours-b.hours;
+      if(state.sort==="level") return a.level.localeCompare(b.level);
+      return (b.featured|0)-(a.featured|0) || a.title.localeCompare(b.title);
+    });
+  }
+
+  function renderCourses(){
+    var list=filtered();
+    $("#count").textContent=list.length+" program"+(list.length===1?"":"s");
+    var g=$("#courseGrid");
+    g.className="course-grid"+(state.view==="list"?" list":"");
+    if(!list.length){g.innerHTML='<div class="empty">No programs match. Clear filters or try another term.</div>';return;}
+    g.innerHTML=list.map(function(c){
+      var on=!!state.favs[c.id], cmp=state.compare.indexOf(c.id)>=0, p=pct(c.id);
+      return '<article class="card course" data-id="'+esc(c.id)+'">'+
+        '<p class="kicker">'+esc(catName(c.category))+' · '+esc(typeName(c.type))+'</p>'+
+        '<h3>'+esc(c.title)+'</h3>'+
+        '<p>'+esc(c.summary)+'</p>'+
+        '<p class="hours">'+c.hours+' hours · '+c.modules+' modules · '+esc(c.level)+(c.featured?' · Featured':'')+'</p>'+
+        '<div class="progress" aria-label="Progress '+p+' percent"><i style="width:'+p+'%"></i></div>'+
+        '<div class="actions">'+
+          '<button class="btn tiny primary" data-open="'+esc(c.id)+'" type="button">View</button>'+
+          '<button class="btn tiny ghost" data-fav="'+esc(c.id)+'" type="button" aria-pressed="'+on+'">'+(on?'Saved':'Save')+'</button>'+
+          '<button class="btn tiny ghost" data-cmp="'+esc(c.id)+'" type="button" aria-pressed="'+cmp+'">'+(cmp?'Compared':'Compare')+'</button>'+
+        '</div></article>';
+    }).join("");
+    renderTray();
+  }
+
+  function renderTray(){
+    var tray=$("#tray");
+    if(!state.compare.length){tray.hidden=true;tray.classList.remove("open");return;}
+    tray.hidden=false;tray.classList.add("open");
+    $("#trayItems").innerHTML=state.compare.map(function(id){var c=courseById(id);return '<span class="chip" style="display:inline-block;padding:8px 10px">'+esc(c?c.title:id)+'</span>'}).join("");
+  }
+
+  function openCourse(id){
+    var c=courseById(id); if(!c) return;
+    var p=pct(id);
+    var outcomes='<ul>'+c.outcomes.map(function(o){return '<li>'+esc(o)+'</li>'}).join("")+'</ul>';
+    var rel=c.related.map(function(h){return '<a class="btn tiny ghost" href="'+esc(h)+'">'+esc(h.replace(/^\//,''))+'</a>'}).join("");
+    $("#dlgInner").innerHTML='<button class="btn tiny ghost close" type="button" data-close aria-label="Close">Close</button>'+
+      '<p class="kicker mono" style="color:var(--sky);letter-spacing:.14em;text-transform:uppercase;font-size:10px">'+esc(catName(c.category))+' · '+esc(c.level)+'</p>'+
+      '<h2 id="dlgTitle">'+esc(c.title)+'</h2>'+
+      '<p class="lede" style="margin-top:10px">'+esc(c.summary)+'</p>'+
+      '<p class="hours">'+c.hours+' hours · '+c.modules+' modules · '+esc(typeName(c.type))+'</p>'+
+      '<h3 style="margin-top:18px">Outcomes</h3>'+outcomes+
+      '<div class="field"><label for="prog">Mark progress on this device</label><input id="prog" type="range" min="0" max="100" value="'+p+'"></div>'+
+      '<div class="cta-row"><a class="btn primary" href="'+esc(c.cta)+'">Enroll / book</a>'+rel+'</div>'+
+      '<p class="note">Enrollment is an engagement. A certificate of completion is issued after the cohort, not by downloading this preview.</p>';
+    var dlg=$("#dlg"); if(typeof dlg.showModal==="function") dlg.showModal(); else dlg.setAttribute("open","");
+    $("#prog").addEventListener("input",function(){state.progress[id]=+this.value;saveState();renderCourses()});
+    location.hash="course="+id;
+  }
+
+  function closeDlg(){
+    var dlg=$("#dlg");
+    if(typeof dlg.close==="function") dlg.close(); else dlg.removeAttribute("open");
+    if(location.hash.indexOf("course=")==1) history.replaceState(null,"",location.pathname+location.search);
+  }
+
+  function drawCert(){
+    var cv=$("#certCanvas"), ctx=cv.getContext("2d");
+    var w=cv.width,h=cv.height;
+    ctx.fillStyle="#0b1220"; ctx.fillRect(0,0,w,h);
+    var g=ctx.createLinearGradient(0,0,w,0);
+    g.addColorStop(0,"#38bdf8"); g.addColorStop(.45,"#a78bfa"); g.addColorStop(.75,"#f472b6"); g.addColorStop(1,"#34d399");
+    ctx.strokeStyle=g; ctx.lineWidth=10; ctx.strokeRect(28,28,w-56,h-56);
+    ctx.strokeStyle="rgba(124,150,255,.35)"; ctx.lineWidth=1; ctx.strokeRect(48,48,w-96,h-96);
+    ctx.fillStyle="#94a0c0"; ctx.font="22px 'IBM Plex Mono',monospace"; ctx.textAlign="center";
+    ctx.fillText("CLEARGLASS INC.  ·  BURLINGTON, ONTARIO", w/2, 120);
+    ctx.fillStyle="#e7ecff"; ctx.font="italic 64px 'Cormorant Garamond',serif";
+    ctx.fillText("Certificate of Completion", w/2, 220);
+    ctx.fillStyle="#94a0c0"; ctx.font="20px Urbanist,sans-serif";
+    ctx.fillText("This preview certifies that", w/2, 300);
+    var name=$("#certName").value.trim()||"Learner name";
+    ctx.fillStyle="#ffffff"; ctx.font="700 52px Urbanist,sans-serif";
+    ctx.fillText(name, w/2, 372);
+    ctx.fillStyle="#94a0c0"; ctx.font="20px Urbanist,sans-serif";
+    ctx.fillText("has completed the professional development program", w/2, 430);
+    var course=$("#certCourse").value.trim()||"ClearGlass Academy program";
+    ctx.fillStyle="#38bdf8"; ctx.font="600 32px 'Cormorant Garamond',serif";
+    ctx.fillText(course, w/2, 490);
+    ctx.fillStyle="#67718f"; ctx.font="16px 'IBM Plex Mono',monospace";
+    ctx.fillText("Issued by ClearGlass Inc.  ·  Not a university degree  ·  PREVIEW ONLY", w/2, 600);
+    ctx.save(); ctx.translate(w/2,h/2); ctx.rotate(-0.35);
+    ctx.fillStyle="rgba(244,114,182,.18)"; ctx.font="700 90px Urbanist,sans-serif";
+    ctx.fillText("PREVIEW",0,0); ctx.restore();
+    ctx.fillStyle="#34d399"; ctx.font="14px 'IBM Plex Mono',monospace";
+    ctx.fillText("Transparency Is Infrastructure", w/2, 760);
+  }
+
+  function wire(){
+    $("#q").addEventListener("input",function(){state.q=this.value;renderCourses()});
+    $("#fCat").addEventListener("change",function(){state.cat=this.value;renderCourses()});
+    $("#fType").addEventListener("change",function(){state.type=this.value;renderCourses()});
+    $("#fLevel").addEventListener("change",function(){state.level=this.value;renderCourses()});
+    $("#fSort").addEventListener("change",function(){state.sort=this.value;renderCourses()});
+    $("#favOnly").addEventListener("click",function(){state.favOnly=!state.favOnly;this.classList.toggle("on",state.favOnly);this.setAttribute("aria-pressed",state.favOnly);renderCourses()});
+    document.addEventListener("click",function(e){
+      var t=e.target.closest("[data-set-cat]"); if(t){$("#fCat").value=state.cat=t.getAttribute("data-set-cat"); $("#catalog").scrollIntoView({behavior:"smooth"}); renderCourses(); return;}
+      t=e.target.closest("[data-set-type]"); if(t){$("#fType").value=state.type=t.getAttribute("data-set-type"); $("#catalog").scrollIntoView({behavior:"smooth"}); renderCourses(); return;}
+      t=e.target.closest("[data-open]"); if(t){openCourse(t.getAttribute("data-open")); return;}
+      t=e.target.closest("[data-fav]"); if(t){var id=t.getAttribute("data-fav"); if(state.favs[id]) delete state.favs[id]; else state.favs[id]=1; saveState(); renderCourses(); toast(state.favs[id]?"Saved on this device":"Removed"); return;}
+      t=e.target.closest("[data-cmp]"); if(t){var id=t.getAttribute("data-cmp"); var i=state.compare.indexOf(id); if(i>=0) state.compare.splice(i,1); else { if(state.compare.length>=3){toast("Compare up to three"); return;} state.compare.push(id);} saveState(); renderCourses(); return;}
+      if(e.target.closest("[data-close]")) closeDlg();
+      t=e.target.closest("[data-view]"); if(t){state.view=t.getAttribute("data-view"); $$("[data-view]").forEach(function(b){b.classList.toggle("on",b===t); b.setAttribute("aria-pressed", b===t?"true":"false")}); renderCourses();}
+    });
+    $("#openCompare").addEventListener("click",function(){
+      if(state.compare.length<2){toast("Select at least two"); return;}
+      var rows=state.compare.map(function(id){var c=courseById(id); if(!c) return ""; return '<tr><th>'+esc(c.title)+'</th><td>'+esc(catName(c.category))+'</td><td>'+c.hours+'h</td><td>'+esc(c.level)+'</td><td>'+esc(typeName(c.type))+'</td></tr>'}).join("");
+      $("#dlgInner").innerHTML='<button class="btn tiny ghost close" type="button" data-close aria-label="Close">Close</button><h2 id="dlgTitle">Compare programs</h2><div style="overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:14px"><thead><tr><th align="left">Program</th><th align="left">Category</th><th align="left">Hours</th><th align="left">Level</th><th align="left">Type</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+      var dlg=$("#dlg"); if(typeof dlg.showModal==="function") dlg.showModal();
+    });
+    $("#clearCompare").addEventListener("click",function(){state.compare=[];saveState();renderCourses()});
+    $("#dlg").addEventListener("click",function(e){if(e.target===$("#dlg")) closeDlg()});
+    document.addEventListener("keydown",function(e){
+      if(e.key==="/" && document.activeElement && document.activeElement.tagName!=="INPUT" && document.activeElement.tagName!=="SELECT" && document.activeElement.tagName!=="TEXTAREA"){e.preventDefault(); $("#q").focus();}
+      if(e.key==="Escape") closeDlg();
+    });
+    $("#drawCert").addEventListener("click",drawCert);
+    $("#dlCert").addEventListener("click",function(){drawCert(); var a=document.createElement("a"); a.href=$("#certCanvas").toDataURL("image/png"); a.download="clearglass-academy-certificate-preview.png"; a.click();});
+    if(location.hash.indexOf("course=")==1) openCourse(location.hash.slice(8));
+    var params=new URLSearchParams(location.search);
+    if(params.get("cat")){state.cat=params.get("cat"); $("#fCat").value=state.cat;}
+    drawCert();
+  }
+
+  function boot(d){ DATA=d; loadState(); fillStatic(); wire(); renderCourses(); }
+
+  function fallback(){
+    var el=document.getElementById("academy-src");
+    if(!el) return null;
+    try{return JSON.parse(el.textContent||"")}catch(e){return null}
+  }
+
+  if(window.__CG_ACADEMY){ boot(window.__CG_ACADEMY); }
+  else if(window.fetch){
+    fetch("/data/academy.json",{credentials:"same-origin"}).then(function(r){return r.ok?r.json():Promise.reject()}).then(boot).catch(function(){
+      boot({categories:[],programTypes:[],courses:[],paths:[],community:[],resources:[],instructors:[],enterprise:[]});
+    });
+  }
+})();
+</script>
+<script defer src="/nav.js"></script>
+<script defer src="/logo-badge.js"></script>
+<script defer src="/assets/js/future-buttons.js"></script>
+<script defer src="/cg-a11y.js"></script>
+</body>
+</html>

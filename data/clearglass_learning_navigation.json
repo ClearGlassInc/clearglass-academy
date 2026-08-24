@@ -1,0 +1,56 @@
+{
+  "schema": "clearglass.academy-nav/v1",
+  "generated": "2026-08-24",
+  "company": "ClearGlass Inc.",
+  "tagline": "Transparency Is Infrastructure",
+  "portal": {
+    "name": "ClearGlass Academy",
+    "url": "https://www.clearglassinc.com/academy.html",
+    "productUrl": "/academy.html"
+  },
+  "company_nav": [
+    { "label": "About", "href": "/index.html#vision" },
+    { "label": "What We Offer", "href": "/products.html" },
+    { "label": "Leadership", "href": "/academy.html#instructors" },
+    { "label": "Careers", "href": "/index.html#contact" },
+    { "label": "Professional Certificates", "href": "/academy.html#programs" },
+    { "label": "Enterprise Learning", "href": "/academy.html#enterprise" },
+    { "label": "Government Programs", "href": "/academy.html#enterprise" },
+    { "label": "University Partnerships", "href": "/academy.html#programs" }
+  ],
+  "community": [
+    { "label": "Learners", "href": "/academy.html#community" },
+    { "label": "Partners", "href": "/academy.html#community" },
+    { "label": "Beta Testers", "href": "/academy.html#community" },
+    { "label": "Blog", "href": "/blog/" },
+    { "label": "Podcast", "href": "/academy.html#community" },
+    { "label": "Tech Blog", "href": "/blog/" }
+  ],
+  "resources": [
+    { "label": "Press", "href": "/blog/" },
+    { "label": "Investors", "href": "/investors/index.html" },
+    { "label": "Articles", "href": "/academy.html#resources" },
+    { "label": "Directory", "href": "/products.html" },
+    { "label": "Privacy", "href": "/legal/privacy.html" },
+    { "label": "Terms", "href": "/legal/terms.html" },
+    { "label": "Accessibility", "href": "/legal/accessibility.html" },
+    { "label": "Contact", "href": "/index.html#contact" }
+  ],
+  "training": [
+    { "label": "Cybersecurity", "href": "/academy.html#catalog", "filter": "cyber" },
+    { "label": "AI Governance", "href": "/academy.html#catalog", "filter": "ai" },
+    { "label": "Public-Source Intelligence", "href": "/academy.html#catalog", "filter": "osint" },
+    { "label": "Geospatial Intelligence", "href": "/academy.html#catalog", "filter": "geo" },
+    { "label": "Automation Engineering", "href": "/academy.html#catalog", "filter": "auto" },
+    { "label": "Executive Risk Intelligence", "href": "/academy.html#catalog", "filter": "risk" }
+  ],
+  "mobile_app": {
+    "ios": false,
+    "android": false,
+    "note": "ClearGlass Academy is a web portal. No native iOS or Android app is shipping as of 2026-08-24. The page is mobile-first and installable as a browser shortcut."
+  },
+  "honesty": {
+    "accreditation": "Certificates are issued by ClearGlass Inc. as professional development credentials. They are not university degrees and are not a substitute for licensed professional designations.",
+    "partnerships": "University partnership language describes curriculum designed for continuing-education use. No exclusive university accreditation is claimed."
+  }
+}

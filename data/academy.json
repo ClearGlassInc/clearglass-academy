@@ -1,0 +1,323 @@
+{
+  "schema": "clearglass.academy/v1",
+  "version": "1.0.0",
+  "updated": "2026-08-24",
+  "organization": {
+    "name": "ClearGlass Inc.",
+    "legalName": "ClearGlass Inc.",
+    "url": "https://www.clearglassinc.com/",
+    "email": "desmond@clearglassinc.com",
+    "telephone": "+1-289-707-0269",
+    "location": "Burlington, Ontario, Canada",
+    "tagline": "Transparency Is Infrastructure"
+  },
+  "disclaimer": "ClearGlass Academy issues professional certificates of completion for ClearGlass Inc. training programs. These are not university-accredited degrees, not security clearances, and not a substitute for licensed professional designations. Cohort delivery is engagement-based and scheduled with written authorization.",
+  "categories": [
+    { "id": "cyber", "name": "Cybersecurity", "blurb": "Defensive operations, resilience kits, and governed blue-team practice.", "icon": "shield" },
+    { "id": "ai", "name": "AI Governance", "blurb": "Human-approved autonomy, agent oversight, and audit-ready AI policy.", "icon": "cpu" },
+    { "id": "osint", "name": "Public-Source Intelligence", "blurb": "Open-source investigation methods that survive contact with reality.", "icon": "search" },
+    { "id": "geo", "name": "Geospatial Intelligence", "blurb": "Live geospatial command literacy for operators and executives.", "icon": "globe" },
+    { "id": "auto", "name": "Automation Engineering", "blurb": "Self-hosted automation, agent mesh, and architecture orchestration.", "icon": "workflow" },
+    { "id": "risk", "name": "Executive Risk Intelligence", "blurb": "Board-level risk language, procurement integrity, and evidence packs.", "icon": "scale" }
+  ],
+  "programTypes": [
+    { "id": "professional", "name": "Professional Certificates", "blurb": "Practitioner tracks with a ClearGlass certificate of completion." },
+    { "id": "executive", "name": "Executive Certificates", "blurb": "Compressed programs for CISOs, directors, and public-sector leads." },
+    { "id": "master", "name": "Master Programs", "blurb": "Multi-course sequences across a product family." },
+    { "id": "enterprise", "name": "Enterprise Learning", "blurb": "Private cohorts mapped to your stack, evidence, and operating cadence." },
+    { "id": "government", "name": "Government Training", "blurb": "Procurement-aware, audit-ready workshops for public-sector teams." },
+    { "id": "university", "name": "University Partnerships", "blurb": "Curriculum designed for continuing education. Partnership conversations welcome — no exclusive university accreditation is claimed." }
+  ],
+  "paths": [
+    {
+      "id": "path-defender",
+      "name": "Defender Path",
+      "blurb": "From plain-language cyber trust to a CISO console literacy.",
+      "courseIds": ["cyber-foundations", "smb-trust", "adaptive-trust", "bluedesk-ciso"]
+    },
+    {
+      "id": "path-governance",
+      "name": "Governed AI Path",
+      "blurb": "Policy, oversight, and agent operations without theatre.",
+      "courseIds": ["ai-governance-operator", "governed-autonomy", "agent-mesh-master"]
+    },
+    {
+      "id": "path-intel",
+      "name": "Intelligence Path",
+      "blurb": "Public-source methods plus geospatial command.",
+      "courseIds": ["osint-methods", "ontario-osint-lab", "geo-literacy", "sentinel-ops"]
+    },
+    {
+      "id": "path-executive",
+      "name": "Executive Path",
+      "blurb": "Risk language, government readiness, and enterprise delivery.",
+      "courseIds": ["exec-risk", "gov-readiness", "artemis-enterprise"]
+    }
+  ],
+  "courses": [
+    {
+      "id": "cyber-foundations",
+      "title": "Cybersecurity Foundations for Operators",
+      "category": "cyber",
+      "type": "professional",
+      "level": "Foundational",
+      "hours": 12,
+      "modules": 8,
+      "featured": true,
+      "summary": "A practitioner baseline: identity, patching, backups, incident first-hour, and how to talk about risk without jargon.",
+      "outcomes": ["Score residual risk in plain language", "Stand up an acceptable-use and MFA baseline", "Run a first-hour incident checklist"],
+      "related": ["/smb-cyber-trust-kit.html", "/bluedesk.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "smb-trust",
+      "title": "SMB Cyber Trust Practitioner",
+      "category": "cyber",
+      "type": "professional",
+      "level": "Practitioner",
+      "hours": 8,
+      "modules": 6,
+      "featured": true,
+      "summary": "Operate the ClearGlass SMB Cyber Trust Kit: policies, heat-map, incident scripts, and owner-facing language.",
+      "outcomes": ["Personalise eight policy templates", "Rank a 5×5 heat-map worst-first", "Draft gated incident comms"],
+      "related": ["/smb-cyber-trust-kit.html", "/smb.html"],
+      "cta": "/smb-cyber-trust-kit.html"
+    },
+    {
+      "id": "adaptive-trust",
+      "title": "Adaptive Trust Architecture",
+      "category": "cyber",
+      "type": "professional",
+      "level": "Practitioner",
+      "hours": 16,
+      "modules": 10,
+      "featured": false,
+      "summary": "Move past slogan-grade zero-trust into adaptive, evidence-backed access and monitoring decisions.",
+      "outcomes": ["Map an adaptive trust loop", "Define human-approval gates", "Produce an audit-ready evidence trail"],
+      "related": ["/artemis-blue-team.html", "/cyber-defense-console.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "bluedesk-ciso",
+      "title": "BLUEDESK CISO Console Literacy",
+      "category": "cyber",
+      "type": "executive",
+      "level": "Executive",
+      "hours": 6,
+      "modules": 5,
+      "featured": false,
+      "summary": "Read, brief, and govern a CISO risk console without drowning the board in telemetry.",
+      "outcomes": ["Brief residual risk in one page", "Use BLUEDESK as an executive surface", "Set a weekly risk cadence"],
+      "related": ["/bluedesk.html", "/bluedesk-mobile.html"],
+      "cta": "/bluedesk.html"
+    },
+    {
+      "id": "ai-governance-operator",
+      "title": "AI Governance Operator",
+      "category": "ai",
+      "type": "professional",
+      "level": "Practitioner",
+      "hours": 14,
+      "modules": 9,
+      "featured": true,
+      "summary": "Stand up governed autonomy: policy, logging, human-in-the-loop, and what never to let an agent invent.",
+      "outcomes": ["Write an agent policy that can be audited", "Instrument approval gates", "Detect shadow-AI use in a small org"],
+      "related": ["/ai-operator.html", "/artemis-self-evolving-platform.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "governed-autonomy",
+      "title": "Governed Autonomy for Agent Systems",
+      "category": "ai",
+      "type": "executive",
+      "level": "Executive",
+      "hours": 8,
+      "modules": 6,
+      "featured": false,
+      "summary": "Executive control of multi-agent systems: what to automate, what to approve, what to refuse.",
+      "outcomes": ["Set an autonomy budget", "Define kill-switch and rollback", "Brief a board on agent risk"],
+      "related": ["/agentmesh.html", "/percival-os.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "osint-methods",
+      "title": "Public-Source Intelligence Methods",
+      "category": "osint",
+      "type": "professional",
+      "level": "Foundational",
+      "hours": 12,
+      "modules": 8,
+      "featured": true,
+      "summary": "Collection, corroboration, sourcing, and the discipline of not claiming more than the record supports.",
+      "outcomes": ["Build a source-transparent dossier", "Apply corroboration rules", "Write findings that survive challenge"],
+      "related": ["/flowsint.html", "/intelligence.html"],
+      "cta": "/intelligence.html"
+    },
+    {
+      "id": "ontario-osint-lab",
+      "title": "Ontario Accountability OSINT Lab",
+      "category": "osint",
+      "type": "professional",
+      "level": "Practitioner",
+      "hours": 10,
+      "modules": 7,
+      "featured": false,
+      "summary": "Regional public-record methods for Ontario and municipal accountability work. No classified sources. No unverified allegations.",
+      "outcomes": ["Navigate public registries and FOI posture", "Structure a municipal evidence pack", "Separate signal from narrative"],
+      "related": ["/Ontario-osint.html", "/procurement-legal-tech.html"],
+      "cta": "/Ontario-osint.html"
+    },
+    {
+      "id": "geo-literacy",
+      "title": "Geospatial Command Literacy",
+      "category": "geo",
+      "type": "professional",
+      "level": "Foundational",
+      "hours": 10,
+      "modules": 6,
+      "featured": false,
+      "summary": "Read a live geospatial picture: layers, latency, uncertainty, and what a map is not allowed to imply.",
+      "outcomes": ["Interpret layer confidence", "Brief a geospatial COP", "Avoid over-claiming from a map"],
+      "related": ["/sentinel.html", "/intelligence-command-surface.html"],
+      "cta": "/sentinel.html"
+    },
+    {
+      "id": "sentinel-ops",
+      "title": "SENTINEL Geospatial Operations",
+      "category": "geo",
+      "type": "executive",
+      "level": "Executive",
+      "hours": 8,
+      "modules": 5,
+      "featured": false,
+      "summary": "Command-surface literacy for SENTINEL: what executives watch, what operators change, what gets logged.",
+      "outcomes": ["Run a SENTINEL briefing loop", "Set geospatial alerting policy", "Hand off an evidence snapshot"],
+      "related": ["/sentinel.html", "/guardian.html"],
+      "cta": "/sentinel.html"
+    },
+    {
+      "id": "conduit-auto",
+      "title": "Automation Engineering with CONDUIT",
+      "category": "auto",
+      "type": "professional",
+      "level": "Practitioner",
+      "hours": 16,
+      "modules": 10,
+      "featured": false,
+      "summary": "Self-hosted automation that you can inspect: triggers, approvals, failure modes, and rollback.",
+      "outcomes": ["Design a governed workflow", "Add human approval where it belongs", "Document a failure runbook"],
+      "related": ["/conduit.html", "/automap.html"],
+      "cta": "/conduit.html"
+    },
+    {
+      "id": "agent-mesh-master",
+      "title": "Multi-Agent Orchestration Master Sequence",
+      "category": "auto",
+      "type": "master",
+      "level": "Practitioner",
+      "hours": 28,
+      "modules": 16,
+      "featured": true,
+      "summary": "A sequenced master program across Agent Mesh, AI Operator Workspace, and Percival command discipline.",
+      "outcomes": ["Orchestrate a multi-agent loop", "Keep a human on the kill-switch", "Produce an operator runbook"],
+      "related": ["/agentmesh.html", "/ai-operator.html", "/percival-os.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "exec-risk",
+      "title": "Executive Risk Intelligence",
+      "category": "risk",
+      "type": "executive",
+      "level": "Executive",
+      "hours": 8,
+      "modules": 6,
+      "featured": true,
+      "summary": "Translate cyber, AI, and intelligence posture into board language: money, time, trust, legal exposure.",
+      "outcomes": ["Write a one-page residual-risk brief", "Set a quarterly risk cadence", "Ask the questions vendors hope you will not"],
+      "related": ["/bluedesk.html", "/pricing.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "gov-readiness",
+      "title": "Government Readiness: Procurement and Evidence",
+      "category": "risk",
+      "type": "government",
+      "level": "Executive",
+      "hours": 10,
+      "modules": 7,
+      "featured": false,
+      "summary": "Public-sector workshops: procurement integrity, evidence packs, and language that survives audit — not classified tradecraft.",
+      "outcomes": ["Assemble an evidence pack", "Map procurement integrity checks", "Brief a public-sector sponsor"],
+      "related": ["/government.html", "/procurement-legal-tech.html"],
+      "cta": "/government.html"
+    },
+    {
+      "id": "artemis-enterprise",
+      "title": "Enterprise Learning: Artemis Operator Path",
+      "category": "ai",
+      "type": "enterprise",
+      "level": "Practitioner",
+      "hours": 24,
+      "modules": 14,
+      "featured": false,
+      "summary": "Private-cohort Artemis literacy mapped to your environment. Delivery is scheduled; nothing here implies a live classified system.",
+      "outcomes": ["Map Artemis surfaces to your ops", "Define governed improvement loops", "Hand off an operator syllabus"],
+      "related": ["/artemis-os.html", "/artemis-iv.html"],
+      "cta": "/store.html"
+    },
+    {
+      "id": "intel-literacy-uni",
+      "title": "Intelligence Systems Literacy — Continuing Education Track",
+      "category": "osint",
+      "type": "university",
+      "level": "Foundational",
+      "hours": 20,
+      "modules": 12,
+      "featured": false,
+      "summary": "A syllabus designed for college and university continuing-education use. Partnership conversations welcome. No exclusive university accreditation is claimed.",
+      "outcomes": ["Teach source discipline", "Run a sourced case lab", "Assess without inflating claims"],
+      "related": ["/intelligence.html", "/flowsint.html"],
+      "cta": "/index.html#contact"
+    }
+  ],
+  "community": [
+    { "id": "learners", "name": "Learner Community", "blurb": "Cohort channels for people taking ClearGlass programs. Access is granted with enrollment." },
+    { "id": "research", "name": "Research Community", "blurb": "Practitioners exchanging methods on OSINT, governance, and defensive automation." },
+    { "id": "partners", "name": "Industry Partners", "blurb": "Integrators and advisors who deliver ClearGlass curriculum inside their accounts." },
+    { "id": "beta", "name": "Beta Testers", "blurb": "Early syllabus reviews. Written feedback only — no production-system access implied." },
+    { "id": "blog", "name": "Technical Blog", "blurb": "Long-form notes from the ClearGlass public site.", "href": "/blog/" },
+    { "id": "podcast", "name": "Podcast", "blurb": "Briefed audio is planned. No episodes are claimed as live until they exist on the site." }
+  ],
+  "resources": [
+    { "id": "articles", "name": "Articles", "href": "/blog/", "blurb": "Public essays on architecture, governance, and operations." },
+    { "id": "whitepapers", "name": "White Papers", "href": "/clearpulse-architecture.html", "blurb": "Longer architecture notes, starting with ClearPulse." },
+    { "id": "threat", "name": "Threat Reports", "href": "/blog/autonomous-threat-modeling-2026.html", "blurb": "Published threat-modeling notes — not classified reporting." },
+    { "id": "aigov", "name": "AI Governance Frameworks", "href": "/blog/ai-agent-governance-governed-autonomy.html", "blurb": "Governed autonomy writing you can brief from." },
+    { "id": "playbooks", "name": "Security Playbooks", "href": "/smb-cyber-trust-kit.html", "blurb": "The SMB Cyber Trust Kit and related operator templates." }
+  ],
+  "instructors": [
+    {
+      "id": "founder",
+      "name": "Desmond Otieno Odhiambo",
+      "role": "Founder & Software Architect",
+      "blurb": "Leads ClearGlass Inc. from Burlington, Ontario. Academy programs are designed from the same product surfaces the company ships — Artemis, BLUEDESK, SENTINEL, CONDUIT, and the SMB Cyber Trust Kit."
+    },
+    {
+      "id": "contributors",
+      "name": "Expert Contributors",
+      "role": "Practitioners",
+      "blurb": "Guest modules are credited by name when they ship. Uncredited 'expert panels' are not invented here."
+    },
+    {
+      "id": "advisors",
+      "name": "Industry Advisors",
+      "role": "Review",
+      "blurb": "Syllabus review is invited from operators and public-sector leads under NDA. Advisory seats are not listed until they are real."
+    }
+  ],
+  "enterprise": [
+    { "id": "ent-cyber", "name": "Enterprise Cybersecurity Training", "blurb": "Private cohorts on foundations, adaptive trust, and CISO console literacy." },
+    { "id": "ent-ai", "name": "AI Risk Management Programs", "blurb": "Governed autonomy workshops mapped to your agent inventory." },
+    { "id": "ent-gov", "name": "Government Readiness Programs", "blurb": "Procurement, evidence, and briefing discipline for public-sector teams." }
+  ]
+}
